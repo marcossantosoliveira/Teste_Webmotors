@@ -29,21 +29,25 @@ export class AnuncioCriarEditarComponent implements OnInit {
         });
     }
 
-    ngOnInit(): void {    
+    ngOnInit(): void {
 
         this.buscarMarcas();
         this.idAnuncio = this.route.snapshot.params['id'];
 
         if (this.idAnuncio != "0") {
-            this.buscarAnuncio(this.idAnuncio);            
+            this.buscarAnuncio(this.idAnuncio);
         }
     }
 
     buscarAnuncio(idAnuncio: string) {
-        this.apiService.get('Anuncios/GetById/' + idAnuncio).subscribe((result: any) => {            
+        this.apiService.get('Anuncios/GetById/' + idAnuncio).subscribe((result: any) => {
 
-            this.selecionarMarca(result.marca);
-            this.selecionarModelo(result.modelo);
+            this.apiService.get('Anuncios/GetAllMake').subscribe((retorno: any[]) => {
+                this.listaMarcas = retorno;
+
+                this.selecionarMarca(result.marca);
+                this.selecionarModelo(result.modelo);
+            });
 
             this.form.setValue({
                 marca: result.marca,
@@ -52,12 +56,12 @@ export class AnuncioCriarEditarComponent implements OnInit {
                 ano: result.ano,
                 quilometragem: result.quilometragem,
                 observacao: result.observacao
-            });         
+            });
         });
     }
 
     buscarMarcas() {
-       
+
         this.apiService.get('Anuncios/GetAllMake').subscribe((result: any[]) => {
             this.listaMarcas = result;
         });
@@ -77,27 +81,27 @@ export class AnuncioCriarEditarComponent implements OnInit {
 
     selecionarMarca(value: any) {
         let id = 0;
-       this.listaMarcas.forEach(e => {
-           if (e.nome == value) {
-               id = e.id;
-           }
-       });
-                  
+        this.listaMarcas.forEach(e => {
+            if (e.nome == value) {
+                id = e.id;
+            }
+        });
+
         this.buscarModelos(id);
     }
 
-    selecionarModelo(value: any) {     
+    selecionarModelo(value: any) {
         let id = 0;
         this.listaModelos.forEach(e => {
             if (e.nome == value) {
                 id = e.id;
             }
-        });  
+        });
         this.buscarVersoes(id);
     }
 
     salvar() {
-        
+
         if (this.idAnuncio == "0") {
 
             // Valida formulário 
