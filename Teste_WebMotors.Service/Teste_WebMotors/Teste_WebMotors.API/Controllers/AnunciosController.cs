@@ -22,6 +22,7 @@ namespace Teste_WebMotors.API.Controllers
             _anuncioServices = anuncioServices;
         }
 
+        //Post
         [HttpPost]
         [Route("Add")]
         public void Add([FromBody] AnuncioInputModel anuncioModel)

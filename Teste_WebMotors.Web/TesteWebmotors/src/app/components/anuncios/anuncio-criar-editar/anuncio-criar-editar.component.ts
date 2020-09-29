@@ -43,6 +43,9 @@ export class AnuncioCriarEditarComponent implements OnInit {
     buscarAnuncio(idAnuncio: string) {
         this.apiService.get('Anuncios/GetById/' + idAnuncio).subscribe((result: any) => {            
 
+            this.selecionarMarca(result.marca);
+            this.selecionarModelo(result.modelo);
+
             this.form.setValue({
                 marca: result.marca,
                 modelo: result.modelo,
@@ -50,10 +53,7 @@ export class AnuncioCriarEditarComponent implements OnInit {
                 ano: result.ano,
                 quilometragem: result.quilometragem,
                 observacao: result.observacao
-            });
-
-            this.selecionarMarca(result.marca);
-            this.selecionarModelo(result.modelo);
+            });         
         });
     }
 
