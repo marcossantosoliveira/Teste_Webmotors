@@ -27,7 +27,7 @@ export class ListaAnunciosComponent implements OnInit {
     }    
 
     buscarAnuncios() {
-        debugger
+        
         this.apiService.get('Anuncios/GetAll').subscribe((result: any) => {
             this.listaAnuncios = result;
             this.dataSource = new MatTableDataSource(this.listaAnuncios);
@@ -41,19 +41,17 @@ export class ListaAnunciosComponent implements OnInit {
     }
 
     editar(id:any){
-        debugger
-
+       
         this.router.navigateByUrl('/anuncio/' + id);
     }
 
     detalhe(id:any){
-        debugger
-
+      
         this.router.navigateByUrl('/anuncio-detalhe/' + id);
     }
 
     excluir(id:string){
-        debugger
+    
         this.apiService.delete('Anuncios/Delete/' + id ).subscribe((result: any) => {
           this.buscarAnuncios();
         });

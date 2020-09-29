@@ -31,8 +31,7 @@ export class AnuncioDetalheComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        debugger;
-
+     
         this.idAnuncio = this.route.snapshot.params['id'];
         this.buscarAnuncio(this.idAnuncio);
 

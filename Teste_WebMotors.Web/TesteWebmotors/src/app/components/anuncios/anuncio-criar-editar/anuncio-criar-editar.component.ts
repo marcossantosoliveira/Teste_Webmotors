@@ -29,8 +29,7 @@ export class AnuncioCriarEditarComponent implements OnInit {
         });
     }
 
-    ngOnInit(): void {
-        debugger;
+    ngOnInit(): void {    
 
         this.buscarMarcas();
         this.idAnuncio = this.route.snapshot.params['id'];
@@ -58,7 +57,7 @@ export class AnuncioCriarEditarComponent implements OnInit {
     }
 
     buscarMarcas() {
-        debugger
+       
         this.apiService.get('Anuncios/GetAllMake').subscribe((result: any[]) => {
             this.listaMarcas = result;
         });
@@ -98,7 +97,7 @@ export class AnuncioCriarEditarComponent implements OnInit {
     }
 
     salvar() {
-        debugger
+        
         if (this.idAnuncio == "0") {
 
             // Valida formulário 

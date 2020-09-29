@@ -22,7 +22,6 @@ namespace Teste_WebMotors.API.Controllers
             _anuncioServices = anuncioServices;
         }
 
-        //Post
         [HttpPost]
         [Route("Add")]
         public void Add([FromBody] AnuncioInputModel anuncioModel)
@@ -50,7 +49,7 @@ namespace Teste_WebMotors.API.Controllers
         [HttpGet]
         [Route("GetAllMake")]
         public List<MarcaViewModel> GetAllMake()
-     {
+        {
             try
             {
                 var anuncioMarcas = _anuncioServices.GetAllMake();
@@ -62,7 +61,7 @@ namespace Teste_WebMotors.API.Controllers
                     var marca = new MarcaViewModel()
                     {
                         ID = item.ID,
-                        Nome = item.Name,                       
+                        Nome = item.Name,
                     };
 
                     listaMarcas.Add(marca);
@@ -173,7 +172,7 @@ namespace Teste_WebMotors.API.Controllers
             {
                 var anuncio = _anuncioServices.GetById(id);
 
-                var anuncioModel = new AnuncioViewModel() 
+                var anuncioModel = new AnuncioViewModel()
                 {
                     ID = anuncio.ID,
                     Ano = anuncio.Ano,
