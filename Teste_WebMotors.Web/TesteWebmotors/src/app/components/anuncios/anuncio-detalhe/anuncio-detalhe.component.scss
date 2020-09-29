@@ -29,26 +29,7 @@
     margin-top: 200px;
 }
 
-@media screen and (max-width: 1600px){
-
-    
-.botao-excluir-item {
-    background-color: red;
-    color: #FFF;
-    border-color: red;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    font-size: 16px;
-}
-.botao-novo-item {
-    background-color: #189DD9;
-    color: #FFF;
-    border-color: #189DD9;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    font-size: 16px;
-}
+@media screen and (max-width: 1600px){  
 
 .botao-voltar-item {
     background-color: green;
