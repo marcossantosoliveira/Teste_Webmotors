@@ -1,0 +1,15 @@
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\bin\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.deps.json
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\bin\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.dll
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\obj\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.csprojAssemblyReference.cache
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\obj\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\obj\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.AssemblyInfo.cs
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\bin\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.pdb
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\bin\Debug\netcoreapp3.1\Teste_WebMotors.Core.dll
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\bin\Debug\netcoreapp3.1\Teste_WebMotors.Core.pdb
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\obj\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.csproj.CopyComplete
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\obj\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.dll
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\obj\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.pdb
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\bin\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.runtimeconfig.json
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\bin\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.runtimeconfig.dev.json
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\obj\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.genruntimeconfig.cache
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Infrastructure\obj\Debug\netcoreapp3.1\Teste_WebMotors.Infrastructure.csproj.CoreCompileInputs.cache

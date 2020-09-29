@@ -1,0 +1,9 @@
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Core\bin\Debug\netcoreapp3.1\Teste_WebMotors.Core.deps.json
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Core\bin\Debug\netcoreapp3.1\Teste_WebMotors.Core.dll
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Core\bin\Debug\netcoreapp3.1\Teste_WebMotors.Core.pdb
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Core\obj\Debug\netcoreapp3.1\Teste_WebMotors.Core.csproj.CoreCompileInputs.cache
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Core\obj\Debug\netcoreapp3.1\Teste_WebMotors.Core.AssemblyInfoInputs.cache
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Core\obj\Debug\netcoreapp3.1\Teste_WebMotors.Core.AssemblyInfo.cs
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Core\obj\Debug\netcoreapp3.1\Teste_WebMotors.Core.dll
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Core\obj\Debug\netcoreapp3.1\Teste_WebMotors.Core.pdb
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Core\obj\Debug\netcoreapp3.1\Teste_WebMotors.Core.csprojAssemblyReference.cache

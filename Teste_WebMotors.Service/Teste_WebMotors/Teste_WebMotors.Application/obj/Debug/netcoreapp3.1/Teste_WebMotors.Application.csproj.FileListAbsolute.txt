@@ -1,0 +1,12 @@
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\bin\Debug\netcoreapp3.1\Teste_WebMotors.Application.deps.json
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\bin\Debug\netcoreapp3.1\Teste_WebMotors.Application.dll
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\bin\Debug\netcoreapp3.1\Teste_WebMotors.Application.pdb
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\obj\Debug\netcoreapp3.1\Teste_WebMotors.Application.csprojAssemblyReference.cache
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\obj\Debug\netcoreapp3.1\Teste_WebMotors.Application.csproj.CoreCompileInputs.cache
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\obj\Debug\netcoreapp3.1\Teste_WebMotors.Application.AssemblyInfoInputs.cache
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\obj\Debug\netcoreapp3.1\Teste_WebMotors.Application.AssemblyInfo.cs
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\obj\Debug\netcoreapp3.1\Teste_WebMotors.Application.dll
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\obj\Debug\netcoreapp3.1\Teste_WebMotors.Application.pdb
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\bin\Debug\netcoreapp3.1\Teste_WebMotors.Core.dll
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\bin\Debug\netcoreapp3.1\Teste_WebMotors.Core.pdb
+C:\Users\marcos.oliveira\Desktop\Teste_WebMotors\Teste_WebMotors.Service\Teste_WebMotors\Teste_WebMotors.Application\obj\Debug\netcoreapp3.1\Teste_WebMotors.Application.csproj.CopyComplete

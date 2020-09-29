@@ -1,0 +1,83 @@
+<h1 class="titulo" *ngIf="idAnuncio != '0'" >Editar Anuncio</h1>
+<h1 class="titulo" *ngIf="idAnuncio == '0'">Novo Anuncio</h1>
+<form [formGroup]="form">
+
+    <div class="formulario"> 
+        
+        <div class="row">
+            <div class="form-group">
+                <label for="nome"> Marca</label>
+            </div>            
+            <div class="form-group">            
+                <select (change)="selecionarMarca($event.target.value)" class="form-control inputs" formControlName="marca">
+                    <option value="">Selecione</option>                    
+                    <option [value]="item.nome" *ngFor="let item of listaMarcas" >
+                        {{item.nome}}
+                    </option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome"> Modelo</label>
+            </div>
+            <div class="form-group">            
+                <select (change)="selecionarModelo($event.target.value)" class="form-control inputs" formControlName="modelo">
+                    <option value="">Selecione</option>                    
+                    <option [value]="item.nome" *ngFor="let item of listaModelos">
+                        {{item.nome}}
+                    </option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome">Versão</label>
+            </div>
+            <div class="form-group">            
+                <select  class="form-control inputs" formControlName="versao">
+                    <option value="">Selecione</option>                    
+                    <option  [value]="item.nome" *ngFor="let item of listaVersoes">
+                        {{item.nome}}
+                    </option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome">Ano</label>
+            </div>
+            <div class="form-group">            
+                <input type="number" class="form-control inputs" formControlName="ano">
+            </div>            
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome"> Quilometragem</label>
+            </div>            
+            <div class="form-group">            
+                <input type="number" class="form-control inputs" formControlName="quilometragem">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome"> Observação</label>
+            </div>            
+            <div class="form-group">            
+                <textarea class="form-control inputs" rows="3" formControlName="observacao"></textarea>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="form-group">            
+               <button type="button" (click)="salvar()" class="botao-novo-item">Salvar</button>
+               <button type="button" (click)="voltar()" class="botao-voltar-item">Voltar</button>               
+            </div>
+        </div>    
+    </div>
+</form>

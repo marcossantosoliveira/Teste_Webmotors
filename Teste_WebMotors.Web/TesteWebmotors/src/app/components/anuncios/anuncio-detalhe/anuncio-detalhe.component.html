@@ -1,0 +1,70 @@
+
+
+
+<h1 class="titulo">Detalhe</h1>
+
+<form [formGroup]="form">
+
+    <div class="formulario"> 
+        
+        <div class="row">
+            <div class="form-group">
+                <label for="nome"> Marca</label>
+            </div>            
+            <div class="form-group">            
+                <input disabled type="text" class="form-control inputs" formControlName="marca">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome"> Modelo</label>
+            </div>
+            <div class="form-group">            
+                <input disabled type="text" class="form-control inputs" formControlName="modelo">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome">Versão</label>
+            </div>
+            <div class="form-group">            
+                <input disabled type="text" class="form-control inputs" formControlName="versao">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome">Ano</label>
+            </div>
+            <div class="form-group">            
+                <input disabled type="number" class="form-control inputs" formControlName="ano">
+            </div>            
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome"> Quilometragem</label>
+            </div>            
+            <div class="form-group">            
+                <input disabled type="number" class="form-control inputs" formControlName="quilometragem">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form-group">
+                <label for="nome"> Observação</label>
+            </div>            
+            <div class="form-group">            
+                <textarea disabled class="form-control inputs" rows="3" formControlName="observacao"></textarea>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="form-group">           
+               <button type="button" (click)="voltar()" class="botao-voltar-item">Voltar</button>               
+            </div>
+        </div>    
+    </div>
+</form>
